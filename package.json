@@ -1,0 +1,31 @@
+{
+  "name": "@nodechessengineserver/lichessbot",
+  "version": "1.0.0",
+  "description": "Lichess bot.",
+  "main": "src/lichessbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lichessbot",
+    "modells",
+    "api",
+    "wrappers"
+  ],
+  "author": "easychessanimations",
+  "license": "MIT",
+  "homepage": "https://github.com/easychessanimations/lichessbot",
+  "bugs": {
+    "url": "https://github.com/easychessanimations/lichessbot/issues",
+    "email": "chessbotroulette@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/easychessanimations/lichessbot.git"
+  },
+  "dependencies": {
+    "@nodechessengineserver/chessboard": "^1.0.0",
+    "@nodechessengineserver/lichess": "^1.0.0",
+    "@nodechessengineserver/miscutils": "^1.0.0"
+  }
+}
